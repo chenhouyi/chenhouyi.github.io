@@ -3,19 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 翼帆远航
+subtitle: 关注前端开发与个人提升
 description:
-author: John Doe
-language:
+author: Howie Chen
+language: zh
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://notes.efanyh.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
+  lang: en
 
 # Directory
 source_dir: source
@@ -34,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
